@@ -13,3 +13,11 @@ Summary: of Heap SortHeap Sort is a highly efficient, comparison-based sorting a
 
 ConclusionIn conclusion, Heap Sort stands out as an exceptionally reliable and resource-efficient algorithm due to its guaranteed \(O(n \log n)\) time complexity and minimal memory footprint. Unlike Quick Sort, which can degrade to O(n²) performance in worst-case scenarios, Heap Sort maintains absolute performance stability regardless of the initial order of the data.While its Max-Heap variant is ideal for sorting data in ascending order and its Min-Heap variant perfectly suits descending order, the algorithm's main drawback is its poor cache locality, which can make it slightly slower in practice than Quick Sort on modern hardware. Ultimately, Heap Sort is the premier choice for systems with strict memory limits, real-time embedded applications, and scenarios where unpredictable, slow worst-case runtimes cannot be tolerated.
 
+ practical-4
+ Summary
+
+The iterative method calculates the factorial by repeatedly multiplying the current result by each integer from 1 up to the given number. A for loop is used to perform these repeated multiplications.
+
+Conclusion
+
+The iterative approach provides a simple and efficient way to calculate factorials. It avoids recursion and uses a loop to obtain the final factorial value.
