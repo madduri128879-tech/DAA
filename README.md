@@ -21,3 +21,9 @@ The iterative method calculates the factorial by repeatedly multiplying the curr
 Conclusion
 
 The iterative approach provides a simple and efficient way to calculate factorials. It avoids recursion and uses a loop to obtain the final factorial value.
+
+                                   practical-7
+summary
+Greedy Approach: Fails when larger coin choices bypass optimal smaller combinations (e.g., target 6 with coins [1, 3, 4]).Recursion & Memoization: Top-down technique that caches repeated subproblem values to avoid redundant tree branches.Tabulation (Bottom-Up DP): Iteratively builds a 1D array where each index tracks the optimal result for sub-amounts up to the target.Complexity: Achieves an efficient \(O(N \times C)\) time complexity and O(N) space complexity (where N is the target amount and C is coin types)
+conclusion
+Optimal Substructure: The optimal solution for a target amount directly relies on the optimal solutions of smaller remaining sub-amounts.Core Paradigm: It stands as a benchmark model for the unbounded knapsack problem where items (coins) are indefinitely reusable.Efficiency: Tabulation eliminates recursion stack overhead, providing optimal scalability for larger target inputs.
