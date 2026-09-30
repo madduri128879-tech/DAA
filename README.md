@@ -66,3 +66,11 @@ DFS visits nodes deeply one by one and uses a stack or recursion.
 
 Conclusion:
 BFS and DFS are useful graph traversal techniques. BFS is useful for level-wise searching, while DFS is useful for deep searching and backtracking.
+
+practical-9
+
+summary:
+Prim’s Algorithm is a greedy algorithm used to find the Minimum Spanning Tree of a weighted, connected graph. It starts from a selected vertex and repeatedly chooses the minimum-weight edge connecting a visited vertex to an unvisited vertex. The algorithm continues until all vertices are included in the spanning tree. The time complexity of Prim’s Algorithm using an adjacency matrix is O(V²).
+
+conclusion:
+Prim’s Algorithm efficiently finds the Minimum Spanning Tree of a connected, weighted graph. It selects the minimum-cost edge at each step while avoiding cycles and connects all vertices with minimum total weight. The Python implementation demonstrates how user input can be used to construct the graph and generate the MST. Overall, Prim’s Algorithm is a useful and simple technique for solving network and graph optimization problems.
